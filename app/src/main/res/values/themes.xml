@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyLittleAdvice" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_purple</item>
+        <item name="colorPrimaryVariant">@color/main_purple_darker</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_purple</item>
+        <item name="colorSecondaryVariant">@color/secondary_purple_lighter</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="bottomNavigationStyle">
+        <item name="backgroundTint">@color/light_gray_1</item>
+    </style>
+
+    <style name="secondaryTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/coolvetica</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="mainPhraseTextStyle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/secondary_purple</item>
+        <item name="fontFamily">@font/coolvetica</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
