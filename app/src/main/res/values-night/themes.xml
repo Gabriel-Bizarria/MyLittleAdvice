@@ -2,15 +2,31 @@
     <!-- Base application theme. -->
     <style name="Theme.MyLittleAdvice" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/main_purple</item>
+        <item name="colorPrimaryVariant">@color/main_purple_darker</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/secondary_purple</item>
+        <item name="colorSecondaryVariant">@color/secondary_purple_lighter</item>
+        <item name="colorOnSecondary">#000000</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="bottomNavigationStyle">
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="secondaryTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/coolvetica</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="mainPhraseTextStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/secondary_purple</item>
+        <item name="fontFamily">@font/coolvetica</item>
+        <item name="android:textAlignment">center</item>
     </style>
 </resources>

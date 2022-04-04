@@ -24,7 +24,7 @@ class DailyAdviceFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val viewModel: MainViewModel by lazy { ViewModelProvider(requireActivity())[MainViewModel::class.java] }
-    val actualDayDate by lazy { dateFormatter.format(Date()) }
+    private val actualDayDate: String by lazy { dateFormatter.format(Date()) }
 
     private var date: String? = null
     private var text: String? = null
