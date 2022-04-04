@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/dailyAdviceFragment"
-        android:name="com.littleadvice.mylittleadvice.DailyAdviceFragment"
+        android:name="com.littleadvice.mylittleadvice.ui.fragments.DailyAdviceFragment"
         android:label="My little advice in this day"
         tools:layout="@layout/fragment_daily_advice" />
     <fragment
         android:id="@+id/randomFragment"
-        android:name="com.littleadvice.mylittleadvice.RandomFragment"
+        android:name="com.littleadvice.mylittleadvice.ui.fragments.RandomFragment"
         android:label="My little random advice"
         tools:layout="@layout/fragment_random" />
 </navigation>

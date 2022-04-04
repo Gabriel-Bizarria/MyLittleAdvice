@@ -1,4 +1,4 @@
-package com.littleadvice.mylittleadvice
+package com.littleadvice.mylittleadvice.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,10 +6,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.littleadvice.mylittleadvice.R
 import com.littleadvice.mylittleadvice.databinding.ActivityMainBinding
-
-const val MAIN_PHRASE = "MAIN_PHRASE"
-const val DAY_SAVED = "DAY_SAVED"
 
 class MainActivity : AppCompatActivity() {
     private lateinit var _binding: ActivityMainBinding
@@ -30,8 +28,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfig)
         binding.bottomNavigationView.setupWithNavController(navController)
-
-
 
     }
 }

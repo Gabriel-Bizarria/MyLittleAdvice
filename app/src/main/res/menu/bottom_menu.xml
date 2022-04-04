@@ -3,10 +3,10 @@
 
     <item
         android:id="@+id/dailyAdviceFragment"
-        android:title="Daily Advice"
+        android:title="@string/daily_advice"
         android:icon="@drawable/ic_book" />
     <item
         android:id="@+id/randomFragment"
-        android:title="Random"
+        android:title="@string/random"
         android:icon="@drawable/ic_cached" />
 </menu>

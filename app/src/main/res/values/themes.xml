@@ -25,7 +25,7 @@
     </style>
 
     <style name="mainPhraseTextStyle">
-        <item name="android:textSize">50sp</item>
+        <item name="android:textSize">40sp</item>
         <item name="android:textColor">@color/secondary_purple</item>
         <item name="fontFamily">@font/coolvetica</item>
         <item name="android:textAlignment">center</item>
